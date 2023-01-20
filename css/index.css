@@ -1,9 +1,5 @@
 .main-container {
-    float: left;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 100px 100px 0 100px;
     min-height: 700px;
     height: 100%;
@@ -25,7 +21,7 @@
     max-width: 100%;
 }
 .card-image__figure {
-    padding: 25px 0 0 0;
+/*    padding: 25px 0 0 0;*/
     max-height: 600px;
     max-width: 600px;
 }
