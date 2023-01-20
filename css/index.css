@@ -1,8 +1,5 @@
 .main-container {
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 100px 100px 0 100px;
     min-height: 700px;
     height: 100%;
