@@ -1,5 +1,4 @@
 .main-container {
-    float: left;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -25,11 +24,11 @@
     max-width: 100%;
 }
 .card-image__figure {
-    padding: 25px 0 0 0;
+
     max-height: 600px;
     max-width: 600px;
 }
 .card-figcaption {
     text-align: center;
 }
-
+/*    padding: 25px 0 0 0;
