@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .main-container {
   flex-direction: column;
   margin: 100px 100px 0 100px;
@@ -8,20 +16,25 @@
   border-image: url(/media/images/css_border-image-1.png) 29 / 25px round;
 }
 .card-text__p {
-  text-align: center
+  text-align: center;
+  &::after {
+    content: "Печально, правда?";
+    color: olivedrab;
+    font-style: normal;
+  }
 }
-.card-text__p:after {
-  content: "Печально, правда?";
-  color: olivedrab;
-  font-style: normal;
-}
-.card-image__img {
-  max-height: 100%;
-  max-width: 100%;
-}
-.card-image__figure {
-  max-height: 600px;
-  max-width: 600px;
+
+.card-image {
+  &__img {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  &__figure {
+    max-height: 600px;
+    max-width: 600px;
+  }
 }
 .card-figcaption {
   text-align: center;
